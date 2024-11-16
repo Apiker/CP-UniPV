@@ -1,0 +1,11 @@
+name = input("Name: ")
+surname = input("Surname: ")
+country = input("Country: ")
+city = input("City: ")
+street = input("Street: ")
+number = input("Number: ")
+postalcode = input("Postal Code: ")
+
+print(" ")
+print(name, surname)
+print(street, number, ",", postalcode, ",", city, ",", country)
